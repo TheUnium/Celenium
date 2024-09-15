@@ -7,7 +7,7 @@ function navigate(hash){const mainContent=document.getElementById('main-content'
                         <span class="text-lg">Download starting in ~5 seconds</span>
                     </div>
                 </div>
-            `;setTimeout(()=>{if(hash==='#d_deb'){window.location.href='https://builds.hamium.xyz/d?=celenium-linux-1.0.0.deb'}else{console.log('Windows download not yet implemented')}},5000);break;case '#lved':mainContent.innerHTML=`
+            `;setTimeout(()=>{if(hash==='#d_deb'){window.location.href='https://github.com/TheUnium/celenium/releases/download/1.0/celenium-debian-1.0.deb'}else{window.location.href='https://github.com/TheUnium/celenium/releases/download/1.0/celenium-windows-1.0.zip'}},5000);break;case '#lved':mainContent.innerHTML=`
                 <div class="flex flex-col items-center justify-center h-screen bg-gradient-to-b from-black to-gray-900">
                     <img src="./assets/images/logo.png" alt="Celenium logo" class="w-32 mb-8 animate-pulse">
                     <h1 class="text-4xl font-bold text-white mb-4">Coming soon!</h1>
