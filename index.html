@@ -1,0 +1,152 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Celenium</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<meta name="description" content="Powerful Solutions">
+	<link rel="icon" href="/icon.png" sizes="any">
+	<link rel="apple-touch-icon" href="icon.png">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+AR:wght@100..400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="flex flex-col w-full px-8 py-2 mx-auto md:px-12 md:items-center md:justify-between md:flex-row lg:px-32 max-w-7xl">
+	<div class="flex flex-row items-center justify-between text-white">
+		<a class="inline-flex items-center gap-6 text-xl font-bold tracking-tight text-white" href="/celenium">
+			<img src="./assets/images/logo.png" alt="celenium logo" class="h-6">
+		</a>
+	</div>
+	<nav class="flex-col items-center flex-grow hidden gap-6 p-4 px-5 text-sm font-medium text-stone-400 md:px-0 md:flex md:justify-start md:flex-row lg:p-0 md:mt-0">
+		<a class="hover:text-white transition-all focus:outline-none text-stone-400 md:ml-auto" href="#readmorepls">
+			Read more
+		</a>
+		<a class="inline-flex items-center justify-center w-full h-8 gap-6 px-5 py-3 text-xs font-medium text-white duration-200 bg-stone-900 rounded-lg md:w-auto hover:bg-stone-700 focus:ring-2 focus:ring-offset-2 focus:ring-black" href="#download">
+			<ion-icon name="download-outline" class="-mr-4 -ml-1"></ion-icon>
+			Download
+		</a>
+	</nav>
+</div>
+
+<div id="main-content">
+</div>
+
+<div id="default-content" style="display: none;">
+	<section class="min-h-screen flex flex-col -mt-12 justify-center text-white">
+		<div class="container w-full mx-auto flex flex-wrap items-center">
+			<div class="w-full md:w-6/12 px-4 text-left">
+				<img src="./assets/images/logo.png" alt="celenium">
+				<p class="text-2xl font-light tracking-wide uppercase mb-8 ml-3">A super simple, blazingly fast 2D game "engine"</p>
+			</div>
+			<div class="w-full md:w-6/12 px-4 flex justify-center relative mt-12 md:mt-0">
+				<img src="./assets/images/shwcs1.png" alt="Factions" class="w-full md:w-[75%] rounded-lg mb-4 transition-transform duration-300 transform hover:scale-105" />
+				<img src="./assets/images/shwcs2.png" alt="Crowns" class="w-1/3 shadow-2xl shadow-black absolute bottom-0 left-3/4 transform -translate-x-1/2 translate-y-1/2 rounded-lg transition-transform duration-300 transform hover:scale-105 z-10" />
+			</div>
+		</div>
+	</section>
+	<section class="relative flex flex-col justify-center text-white">
+		<div class="absolute inset-0 bg-black opacity-25 z-0"></div>
+		<div class="container w-full mx-auto py-12 flex flex-wrap items-center relative z-10">
+			<div class="w-full md:w-9/12 px-4 mt-6 text-left">
+				<h1 class="text-4xl md:text-6xl ml-4 font-extrabold leading-none">
+					Why Celenium?
+				</h1>
+				<p class="text-xl font-light tracking-wide mb-8 mt-4 px-4 py-2">
+					Well... no reason to be honest. I wouldn't really recommend using this "engine" to create
+					levels. It isn't even an engine technically, it's just a level editor, but a man can dream...
+					You can create levels and share them though! You can find levels at the
+					<a href="#lved" class="text-green-300">
+						Celenium LVED
+						<ion-icon name="open-outline" class="h-4"></ion-icon>
+					</a>
+					:)
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class="relative flex flex-col justify-center text-white" id="readmorepls">
+		<div class="absolute inset-0 bg-black opacity-50 z-0"></div>
+		<div class="container w-full mx-auto py-12 flex flex-wrap items-center relative z-10">
+			<div class="w-full md:w-9/12 px-4 mt-6 text-left">
+				<h1 class="text-4xl md:text-6xl ml-4 font-extrabold leading-none">
+					What's Celenium?
+				</h1>
+				<p class="text-xl font-light tracking-wide mb-8 mt-4 px-4 py-2">
+					Celenium is a sort of game with a level editor, which I mainly made because I wanted to make games
+					in the future. Since I would end up making something like this anyway, I decided to just make it
+					before I have to scratch my hair out, figuring out how to integrate something like this after I'd
+					have already made the game.
+				</p>
+				<p class="text-xl font-light tracking-wide mb-8 mt-4 px-4 py-2">
+					Later on, I do have plans to open source this when I feel like this is in a "usable" state (basically,
+					when you can actually make some cool levels, pretty arbitrary explanation, but I'll try to elaborate
+					more later). So far, users can make and share levels. You can also upload your levels over at the
+					<a href="#lved" class="text-green-300">
+						Celenium LVED
+						<ion-icon name="open-outline" class="h-4"></ion-icon>
+					</a>
+					if you want to share a map publicly!
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class="relative flex flex-col justify-center text-white" id="download">
+		<div class="absolute inset-0 bg-black opacity-75 z-0"></div>
+		<div class="container w-full mx-auto py-12 flex flex-wrap items-center relative z-10">
+			<div class="w-full text-center mb-12">
+				<h1 class="text-4xl md:text-6xl font-extrabold leading-none">
+					Downloads
+				</h1>
+			</div>
+			<div class="w-full py-8 flex flex-col md:flex-row justify-center items-start space-y-6 md:space-y-0 md:space-x-8 relative mt-12 md:mt-0">
+				<div class="p-6 bg-black hover:border-2 border-green-500 duration-300 rounded-lg shadow-lg flex-1">
+					<p class="text-center text-sm font-bold text-green-500 tracking-tight -mb-2">
+						(.deb)
+					</p>
+					<p class="text-center text-6xl font-bold tracking-tight mb-6">
+						Linux
+					</p>
+					<div>
+						<a href="#main-content">
+							<button class="w-full px-6 py-3 bg-green-500 text-black font-semibold rounded-lg shadow hover:bg-green-600 transition" onclick="navigate('#d_deb')">
+								Download debian package
+								<ion-icon name="download-outline" class="h-3"></ion-icon>
+							</button>
+						</a>
+					</div>
+				</div>
+				<div class="p-6 bg-black rounded-lg hover:border-2 border-green-500 duration-300 shadow-lg flex-1">
+					<p class="text-center text-sm font-bold text-green-500 tracking-tight -mb-2">
+						(.exe)
+					</p>
+					<p class="text-center text-6xl font-bold tracking-tight mb-6">
+						Windows 10/11
+					</p>
+					<div>
+						<a href="#main-content">
+							<button class="w-full px-6 py-3 bg-green-500 text-black font-semibold rounded-lg shadow hover:bg-green-600 transition" onclick="navigate('#d_exe')">
+								Download zipped
+								<ion-icon name="download-outline" class="h-3"></ion-icon>
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+
+<section class="border-t-2 border-green-500 relative flex flex-col justify-center text-white">
+	<div class="absolute inset-0 bg-black z-0"></div>
+	<div class="container mx-auto text-center text-gray-400 z-10 py-4">
+		<p class="mb-1">discord : leunium</p>
+		<p>unium © 2021-2023 All Rights Reserved.</p>
+	</div>
+</section>
+<script src="./assets/js/bg.js"></script>
+<script src="./assets/js/app.js"></script>
+</body>
+</html>
